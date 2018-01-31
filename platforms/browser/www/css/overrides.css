@@ -1,0 +1,24 @@
+.button {
+    display: block;
+    width : 80%;
+    margin: auto;
+    border: 1px solid black;
+    background: lightblue;
+    color: black;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.camera {
+    /* modify for this div to the bottom of the page*/
+}
+
+#myImage {
+    width: 80%;
+    max-height: .calc(width*10);
+    margin: auto;
+    display: block;
+    margin: 30px auto;
+}
