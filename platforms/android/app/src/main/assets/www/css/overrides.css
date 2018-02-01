@@ -1,24 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
 .button {
     display: block;
     width : 80%;
     margin: auto;
-    border: 1px solid black;
-    background: lightblue;
-    color: black;
+    border: 2px solid #EEEEEE;
+    background-color: white;
+    color: #424242;
+    font-weight: bold;
     padding: 10px;
     border-radius: 3px;
     margin-top: 10px;
     text-align: center;
+    box-shadow: 2px 2px 2px #EEEEEE;
 }
 
 .camera {
-    /* modify for this div to the bottom of the page*/
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
 }
 
 #myImage {
-    width: 80%;
-    max-height: .calc(width*10);
-    margin: auto;
+    max-width: 80%;
+    min-width: 50%;
+    height: auto;
+    min-height: 50%;
+    max-height: 65%;
     display: block;
-    margin: 30px auto;
+    margin: 20% auto 30px;
 }

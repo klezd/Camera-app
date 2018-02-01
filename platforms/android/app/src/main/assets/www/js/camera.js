@@ -20,7 +20,6 @@ function deviceReady() {
     }
 
     function openCamera(selection) {
-
         var srcType = Camera.PictureSourceType.CAMERA;
         var options = setOptions(srcType);
 
@@ -36,11 +35,9 @@ function deviceReady() {
         console.log("open gallery");
     }
 
-    function onSuccess(imageData) {
+    function onSuccess(imageUrl) {
         var image = document.getElementById('myImage');
-        image.src = imageURI;
-        createNewFileEntry(imageURI);
-
+        image.src = imageUrl;
     }
 
     function onFail(message) {
